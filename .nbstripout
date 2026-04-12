@@ -1,0 +1,9 @@
+# nbstripout configuration
+# Strip outputs and metadata from notebooks before committing
+# This keeps diffs clean and repo size small
+
+extra_keys =
+    metadata.kernelspec
+    metadata.language_info.version
+    cell.metadata.collapsed
+    cell.metadata.scrolled
